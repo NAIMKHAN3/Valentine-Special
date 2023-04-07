@@ -1,10 +1,11 @@
-import logo from './logo.svg';
+import { RouterProvider } from 'react-router-dom';
 import './App.css';
+import router from './Router';
 
 function App() {
   return (
     <div className="App">
-      <h1 className='text-center bg-[#2596be]  my-10'>Valentine Special</h1>
+      <RouterProvider router={router} />
     </div>
   );
 }

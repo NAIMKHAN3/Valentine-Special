@@ -1,0 +1,170 @@
+[
+    {
+        "_id": 1,
+        "name": "Pen-1",
+        "price": 12,
+        "image": "https://i.ibb.co/Y8SKjkB/download-14.jpg",
+        "cetegory": "pen"
+    },
+    {
+        "_id": 2,
+        "name": "Pen-2",
+        "price": 15,
+        "image": "https://i.ibb.co/F84XNvd/images-2.jpg",
+        "cetegory": "pen"
+    },
+    {
+        "_id": 3,
+        "name": "Pen-3",
+        "price": 10,
+        "image": "https://i.ibb.co/27YnmYz/download-6.jpg",
+        "cetegory": "pen"
+    },
+    {
+        "_id": 4,
+        "name": "Pen-4",
+        "price": 14,
+        "image": "https://i.ibb.co/Vw7LHhY/images-3.jpg",
+        "cetegory": "pen"
+    },
+    {
+        "_id": 5,
+        "name": "Pen-5",
+        "price": 18,
+        "image": "https://i.ibb.co/T4p3nmd/images-4.jpg",
+        "cetegory": "pen"
+    },
+    {
+        "_id": 6,
+        "name": "Pen-6",
+        "price": 16,
+        "image": "https://i.ibb.co/FWPJ4F8/download-9.jpg",
+        "cetegory": "pen"
+    },
+    {
+        "_id": 7,
+        "name": "Teddy-1",
+        "price": 53,
+        "image": "https://i.ibb.co/fd91XG4/download-1.jpg",
+        "cetegory": "teddy"
+    },
+    {
+        "_id": 8,
+        "name": "Teddy-2",
+        "price": 35,
+        "image": "https://i.ibb.co/n1wBG3M/download-2.jpg",
+        "cetegory": "teddy"
+    },
+    {
+        "_id": 9,
+        "name": "Teddy-3",
+        "price": 49,
+        "image": "https://i.ibb.co/23v1JKW/download-3.jpg",
+        "cetegory": "teddy"
+    },
+    {
+        "_id": 10,
+        "name": "Teddy-4",
+        "price": 47,
+        "image": "https://i.ibb.co/QpCxsj5/download.jpg",
+        "cetegory": "teddy"
+    },
+    {
+        "_id": 11,
+        "name": "Teddy-5",
+        "price": 30,
+        "image": "https://i.ibb.co/dcZB0Ks/images-1.jpg",
+        "cetegory": "teddy"
+    },
+    {
+        "_id": 12,
+        "name": "Teddy-6",
+        "price": 46,
+        "image": "https://i.ibb.co/KzvpRsx/images.jpg",
+        "cetegory": "teddy"
+    },
+    {
+        "_id": 13,
+        "name": "Diary-1",
+        "price": 22,
+        "image": "https://i.ibb.co/9VGRDfn/download-4.jpg",
+        "cetegory": "diary"
+    },
+    {
+        "_id": 14,
+        "name": "Diary-2",
+        "price": 28,
+        "image": "https://i.ibb.co/gSWV8zb/images-5.jpg",
+        "cetegory": "diary"
+    },
+    {
+        "_id": 15,
+        "name": "Diary-3",
+        "price": 21,
+        "image": "https://i.ibb.co/L88q3V4/images-6.jpg",
+        "cetegory": "diary"
+    },
+    {
+        "_id": 16,
+        "name": "Diary-4",
+        "price": 26,
+        "image": "https://i.ibb.co/TLdx56F/download-8.jpg",
+        "cetegory": "diary"
+    },
+    {
+        "_id": 17,
+        "name": "Diary-5",
+        "price": 23,
+        "image": "https://i.ibb.co/1607Bvs/download-5.jpg",
+        "cetegory": "diary"
+    },
+    {
+        "_id": 18,
+        "name": "Diary-6",
+        "price": 25,
+        "image": "https://i.ibb.co/6gtC40v/download-7.jpg",
+        "cetegory": "diary"
+    },
+    {
+        "_id": 19,
+        "name": "Showpiece-1",
+        "price": 59,
+        "image": "https://i.ibb.co/LRqSWqg/images-7.jpg",
+        "cetegory": "Showpiece"
+    },
+    {
+        "_id": 20,
+        "name": "Showpiece-1",
+        "price": 53,
+        "image": "https://i.ibb.co/s63rHwQ/download-12.jpg",
+        "cetegory": "Showpiece"
+    },
+    {
+        "_id": 21,
+        "name": "Showpiece-1",
+        "price": 56,
+        "image": "https://i.ibb.co/ZdK4XqJ/download-11.jpg",
+        "cetegory": "Showpiece"
+    },
+    {
+        "_id": 22,
+        "name": "Showpiece-1",
+        "price": 51,
+        "image": "https://i.ibb.co/10rSdbz/download-10.jpg",
+        "cetegory": "Showpiece"
+    },
+    {
+        "_id": 23,
+        "name": "Showpiece-1",
+        "price": 58,
+        "image": "https://i.ibb.co/C1V4Rjy/download-13.jpg",
+        "cetegory": "Showpiece"
+    },
+    {
+        "_id": 24,
+        "name": "Showpiece-1",
+        "price": 54,
+        "image": "https://i.ibb.co/QDHgPrk/images-8.jpg",
+        "cetegory": "Showpiece"
+    }
+]
