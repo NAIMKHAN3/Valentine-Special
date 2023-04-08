@@ -41,7 +41,7 @@ const Product = () => {
                 <button onClick={() => dispatch(filterProduct("pen"))} className={`border px-3 hover:bg-[#962927] transition duration-300 hover:text-white py-2 rounded-full font-semibold ${filter === 'pen' && activeClass}`}
                 >Pen</button>
             </div>
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4' data-aos="fade-up" data-aos-duration="1000">
                 {
                     content
                 }

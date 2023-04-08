@@ -2,7 +2,7 @@ import React from 'react';
 
 const About = () => {
     return (
-        <div className='max-w-6xl mx-auto my-10'>
+        <div className='max-w-6xl mx-auto my-10' data-aos="fade-up" data-aos-duration="1000">
             <h1 className=' text-center text-[#962927] font-semibold text-4xl tracking-widest'>ABOUT US</h1>
             <img className=' w-1/3 mx-auto my-10' src="https://i.ibb.co/tM7JbCv/romantic-valentine-day-logo-E9538499-FE-seeklogo-com.png" alt="" />
             <div className=''>

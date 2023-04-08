@@ -2,7 +2,7 @@ import React from 'react';
 
 const Contact = () => {
     return (
-        <div className="max-w-6xl mx-auto my-10">
+        <div className="max-w-6xl mx-auto my-10" data-aos="fade-up" data-aos-duration="1000">
             <h1 className=' text-center text-[#962927] font-semibold text-4xl tracking-widest'>CONTACT US</h1>
             <div className='grid grid-cols-1 md:grid-cols-2 gap- shadow-2xl p-5 my-10 rounded-lg m-3'>
                 <div className='p-3 '>

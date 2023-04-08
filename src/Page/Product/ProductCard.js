@@ -28,7 +28,7 @@ const ProductCard = ({ product }) => {
             </div>
             <div>
                 {
-                    location === '/booking' ? <button onClick={() => dispatch(deleteBooking(product))} className="bg-[#e24646] text-white px-5 py-2 w-full rounded flex justify-center items-center font-semibold">Remove <RiDeleteBin6Line className='ml-3' size={20}></RiDeleteBin6Line></button> :
+                    location === '/booking' ? <button onClick={() => dispatch(deleteBooking(product))} className="bg-[#b81313] text-white px-5 py-2 w-full rounded flex justify-center items-center font-semibold">Remove <RiDeleteBin6Line className='ml-3' size={20}></RiDeleteBin6Line></button> :
                         <button onClick={() => dispatch(addBooking(product))} className="bg-[#962927] hover:bg-[#5a0f0e] transition duration-300 text-white px-5 py-2 w-full rounded">Booking Now</button>
                 }
 
