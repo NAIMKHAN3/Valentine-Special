@@ -1,9 +1,14 @@
 import React from 'react';
+import Footer from './Footer';
+import Header from './Header';
+import WhyChoose from './WhyChoose';
 
 const Home = () => {
     return (
         <div>
-            <h1> this is Home page</h1>
+            <Header />
+            <WhyChoose />
+            <Footer />
         </div>
     );
 };

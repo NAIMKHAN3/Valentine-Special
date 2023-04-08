@@ -20,7 +20,6 @@ const Product = () => {
     if (products.length) {
         content = products.map(product => <ProductCard key={product._id} product={product}></ProductCard>)
     }
-
     if (products.length && filter.length) {
         content = products.filter(product =>
             filter.includes(product.cetegory)

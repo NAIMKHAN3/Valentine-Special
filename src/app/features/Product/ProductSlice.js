@@ -3,7 +3,7 @@ import { toast } from "react-hot-toast"
 
 const initialState = {
     products: [],
-    bookingProducts: "",
+    bookingProducts: [],
     filter: [],
 }
 
