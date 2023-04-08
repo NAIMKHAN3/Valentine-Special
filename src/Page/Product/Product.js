@@ -28,7 +28,7 @@ const Product = () => {
 
 
     return (
-        <div className='max-w-6xl mx-auto my-10'>
+        <div className='max-w-6xl mx-auto mb-10 mt-[60px] pt-10'>
             <div className='mb-10 flex justify-end gap-5'>
                 <button className={`border px-3 py-2 hover:bg-[#962927] hover:text-white transition duration-300 rounded-full font-semibold ${filter === 'showpiece' && activeClass}`}
                     onClick={() => dispatch(filterProduct("showpiece"))}
