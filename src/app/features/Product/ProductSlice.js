@@ -3,8 +3,8 @@ import { toast } from "react-hot-toast"
 
 const initialState = {
     products: [],
-    bookingProducts: [],
-    cetegory: [],
+    bookingProducts: "",
+    filter: [],
 }
 
 const productSlice = createSlice({
@@ -35,17 +35,19 @@ const productSlice = createSlice({
             }
         },
         filterProduct: (state, action) => {
-            const selectedCetegory = state.cetegory.find(cetegory => cetegory === action.payload)
-            if (!selectedCetegory) {
-                state.cetegory.push(action.payload)
-            } else {
-                state.cetegory = state.cetegory.filter(cetegory => cetegory !== action.payload)
+            if (state.filter === action.payload) {
+                state.filter = ""
             }
-
+            else {
+                state.filter = action.payload;
+            }
+        },
+        setProduct: (state, action) => {
+            state.products = action.payload;
         }
     }
 })
 
-export const { addBooking, deleteBooking } = productSlice.actions;
+export const { addBooking, deleteBooking, filterProduct, setProduct } = productSlice.actions;
 
 export default productSlice.reducer;

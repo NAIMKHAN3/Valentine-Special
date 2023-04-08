@@ -130,41 +130,41 @@
         "name": "Showpiece-1",
         "price": 59,
         "image": "https://i.ibb.co/LRqSWqg/images-7.jpg",
-        "cetegory": "Showpiece"
+        "cetegory": "showpiece"
     },
     {
         "_id": 20,
         "name": "Showpiece-1",
         "price": 53,
         "image": "https://i.ibb.co/s63rHwQ/download-12.jpg",
-        "cetegory": "Showpiece"
+        "cetegory": "showpiece"
     },
     {
         "_id": 21,
         "name": "Showpiece-1",
         "price": 56,
         "image": "https://i.ibb.co/ZdK4XqJ/download-11.jpg",
-        "cetegory": "Showpiece"
+        "cetegory": "showpiece"
     },
     {
         "_id": 22,
         "name": "Showpiece-1",
         "price": 51,
         "image": "https://i.ibb.co/10rSdbz/download-10.jpg",
-        "cetegory": "Showpiece"
+        "cetegory": "showpiece"
     },
     {
         "_id": 23,
         "name": "Showpiece-1",
         "price": 58,
         "image": "https://i.ibb.co/C1V4Rjy/download-13.jpg",
-        "cetegory": "Showpiece"
+        "cetegory": "showpiece"
     },
     {
         "_id": 24,
         "name": "Showpiece-1",
         "price": 54,
         "image": "https://i.ibb.co/QDHgPrk/images-8.jpg",
-        "cetegory": "Showpiece"
+        "cetegory": "showpiece"
     }
 ]
