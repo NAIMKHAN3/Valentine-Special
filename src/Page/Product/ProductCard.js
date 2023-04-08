@@ -1,6 +1,6 @@
 import React from 'react';
 import { useDispatch } from 'react-redux';
-import { addBooking } from '../../app/features/Product/ProductSlice';
+import { addBooking, deleteBooking } from '../../app/features/Product/ProductSlice';
 import { RiDeleteBin6Line } from "react-icons/ri";
 
 const ProductCard = ({ product }) => {
@@ -28,7 +28,7 @@ const ProductCard = ({ product }) => {
             </div>
             <div>
                 {
-                    location === '/booking' ? <button onClick={() => dispatch(addBooking(product))} className="bg-[#e24646] text-white px-5 py-2 w-full rounded flex justify-center items-center font-semibold">Remove <RiDeleteBin6Line className='ml-3' size={20}></RiDeleteBin6Line></button> :
+                    location === '/booking' ? <button onClick={() => dispatch(deleteBooking(product))} className="bg-[#e24646] text-white px-5 py-2 w-full rounded flex justify-center items-center font-semibold">Remove <RiDeleteBin6Line className='ml-3' size={20}></RiDeleteBin6Line></button> :
                         <button onClick={() => dispatch(addBooking(product))} className="bg-[#2596be] text-white px-5 py-2 w-full rounded">Booking Now</button>
                 }
 
