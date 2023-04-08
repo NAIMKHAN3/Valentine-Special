@@ -1,5 +1,4 @@
 import React from 'react';
-import Footer from './Footer';
 import Header from './Header';
 import WhyChoose from './WhyChoose';
 import DoWeSell from './DoWeSell';
@@ -12,7 +11,6 @@ const Home = () => {
             <Slider />
             <DoWeSell />
             <WhyChoose />
-            <Footer />
         </div>
     );
 };

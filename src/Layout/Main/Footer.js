@@ -10,7 +10,7 @@ const Footer = () => {
             <div className='max-w-[80%] my-10 mx-auto'>
                 <div className='grid grid-cols-1 md:grid-cols-5 lg:grid-cols-9 gap-5'>
                     <div className='col-span-3'>
-                        <img className='w-16' src="https://i.ibb.co/Mh6PVhy/pngtree-happy-valentine-s-day-png-image-2555688-removebg-preview.png" alt="" />
+                        <img className='w-36' src="https://i.ibb.co/58dXFc3/516110992784dndyt51cb-removebg-preview.png" alt="" />
                         <p className='text-white my-5 font-semibold'>Valentine Special Group Holdings Ltd. started life as a business lines and calls provider in Birmingham City Centre, we moved our offices to Halesowen in 2012. We expanded over the following years to cover all forms of business communications and gained customers from all over the UK.</p>
                         <div className='flex my-5'>
                             <span className='text-[#F1B7BD] text-6xl mr-3'><CiFacebook /></span>
@@ -29,7 +29,7 @@ const Footer = () => {
                         <h5 className='font-semibold mt-3'>Hosted Telephony System</h5>
 
                     </div>
-                    <div className='col-span-2 text-white'>
+                    <div className='col-span-3 lg:col-span-2 text-white'>
                         <h1 className='text-3xl font-semibold'>Useful Links
                         </h1>
                         <h5 className='font-semibold mt-10'>Our Brochure</h5>

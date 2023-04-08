@@ -15,16 +15,16 @@ const ProductCard = ({ product }) => {
         <div className=' border p-3 shadow-lg rounded-lg mx-auto relative'>
             {
                 location === '/booking' &&
-                <div className='bg-[#962927] rounded-full grid place-items-center text-white absolute top-0 right-0 h-8 w-8'><p>{product.quantity}</p></div>
+                <div className='bg-[#F1B7BD] rounded-full grid place-items-center font-semibold absolute top-0 right-0 h-8 w-8'><p>{product.quantity}</p></div>
             }
             <img className='w-96 h-56' src={image} alt="" />
-            <div className='flex justify-between font-semibold my-2'>
+            <div className='flex justify-between font-semibold my-2 text-[#962927]'>
                 <p>Name :</p>
-                <h1 className='font-semibold text-lg'>{name}</h1>
+                <h1 className='font-bold text-lg'>{name}</h1>
             </div>
-            <div className='flex justify-between font-semibold my-2'>
+            <div className='flex justify-between font-semibold my-2 text-[#962927]'>
                 <p>Price :</p>
-                <p className='font-semibold text-lg'>$ {price}</p>
+                <p className='font-bold text-lg'>$ {price}</p>
             </div>
             <div>
                 {
