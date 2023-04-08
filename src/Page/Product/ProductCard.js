@@ -15,7 +15,7 @@ const ProductCard = ({ product }) => {
         <div className=' border p-3 shadow-lg rounded-lg mx-auto relative'>
             {
                 location === '/booking' &&
-                <div className='bg-[#2596be] rounded-full grid place-items-center text-white absolute top-0 right-0 h-8 w-8'><p>{product.quantity}</p></div>
+                <div className='bg-[#962927] rounded-full grid place-items-center text-white absolute top-0 right-0 h-8 w-8'><p>{product.quantity}</p></div>
             }
             <img className='w-96 h-56' src={image} alt="" />
             <div className='flex justify-between font-semibold my-2'>
@@ -29,7 +29,7 @@ const ProductCard = ({ product }) => {
             <div>
                 {
                     location === '/booking' ? <button onClick={() => dispatch(deleteBooking(product))} className="bg-[#e24646] text-white px-5 py-2 w-full rounded flex justify-center items-center font-semibold">Remove <RiDeleteBin6Line className='ml-3' size={20}></RiDeleteBin6Line></button> :
-                        <button onClick={() => dispatch(addBooking(product))} className="bg-[#2596be] text-white px-5 py-2 w-full rounded">Booking Now</button>
+                        <button onClick={() => dispatch(addBooking(product))} className="bg-[#962927] hover:bg-[#5a0f0e] transition duration-300 text-white px-5 py-2 w-full rounded">Booking Now</button>
                 }
 
 

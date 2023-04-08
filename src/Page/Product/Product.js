@@ -7,7 +7,7 @@ const Product = () => {
     const dispatch = useDispatch();
     const { filter, products } = useSelector(state => state.product)
 
-    const activeClass = 'bg-[#2596be] text-white border-white';
+    const activeClass = 'bg-[#962927] text-white border-white';
 
     useEffect(() => {
         fetch("giftitem.json")
@@ -30,14 +30,14 @@ const Product = () => {
     return (
         <div className='max-w-6xl mx-auto my-10'>
             <div className='mb-10 flex justify-end gap-5'>
-                <button onClick={() => dispatch(filterProduct("pen"))} className={`border px-3 py-2 rounded-full font-semibold ${filter === 'pen' && activeClass}`}
+                <button onClick={() => dispatch(filterProduct("pen"))} className={`border px-3 hover:bg-[#962927] transition duration-300 hover:text-white py-2 rounded-full font-semibold ${filter === 'pen' && activeClass}`}
                 >Pen</button>
-                <button onClick={() => dispatch(filterProduct("diary"))} className={`border px-3 py-2 rounded-full font-semibold ${filter === 'diary' && activeClass}`}
+                <button onClick={() => dispatch(filterProduct("diary"))} className={`border px-3 py-2 hover:bg-[#962927] hover:text-white transition duration-300 rounded-full font-semibold ${filter === 'diary' && activeClass}`}
                 >Diary</button>
-                <button className={`border px-3 py-2 rounded-full font-semibold ${filter === 'teddy' && activeClass}`}
+                <button className={`border px-3 py-2 hover:bg-[#962927] hover:text-white transition duration-300 rounded-full font-semibold ${filter === 'teddy' && activeClass}`}
                     onClick={() => dispatch(filterProduct("teddy"))}
                 >Teddy</button>
-                <button className={`border px-3 py-2 rounded-full font-semibold ${filter === 'showpiece' && activeClass}`}
+                <button className={`border px-3 py-2 hover:bg-[#962927] hover:text-white transition duration-300 rounded-full font-semibold ${filter === 'showpiece' && activeClass}`}
                     onClick={() => dispatch(filterProduct("showpiece"))}
                 >Showpiece</button>
             </div>

@@ -6,15 +6,15 @@ import { MdOutlineLocationOn, MdOutlinePhoneInTalk, MdOutlineMail } from 'react-
 
 const Footer = () => {
     return (
-        <div className='bg-[#2596be] p-5' data-aos="fade-up" data-aos-duration="1000">
+        <div className='bg-[#962927] p-5' data-aos="fade-up" data-aos-duration="1000">
             <div className='max-w-[80%] my-10 mx-auto'>
                 <div className='grid grid-cols-1 md:grid-cols-5 lg:grid-cols-9 gap-5'>
                     <div className='col-span-3'>
                         <img className='w-16' src="https://i.ibb.co/Mh6PVhy/pngtree-happy-valentine-s-day-png-image-2555688-removebg-preview.png" alt="" />
                         <p className='text-white my-5 font-semibold'>Valentine Special Group Holdings Ltd. started life as a business lines and calls provider in Birmingham City Centre, we moved our offices to Halesowen in 2012. We expanded over the following years to cover all forms of business communications and gained customers from all over the UK.</p>
                         <div className='flex my-5'>
-                            <span className='text-cyan-500 text-6xl mr-3'><CiFacebook /></span>
-                            <span className='text-cyan-500 text-6xl mr-3'><TiSocialTwitterCircular /></span>
+                            <span className='text-[#F1B7BD] text-6xl mr-3'><CiFacebook /></span>
+                            <span className='text-[#F1B7BD] text-6xl mr-3'><TiSocialTwitterCircular /></span>
                             <span className='text-red-500 text-6xl mr-3'><AiFillYoutube /></span>
                         </div>
                     </div>
@@ -41,16 +41,16 @@ const Footer = () => {
                         <h1 className='text-3xl font-semibold'>Contact Us
                         </h1>
                         <div className='mt-10 flex'>
-                            <span className=' '><MdOutlineLocationOn className='text-4xl bg-cyan-400 p-2 rounded-full mr-3' /></span>
+                            <span className=' '><MdOutlineLocationOn className='text-4xl bg-[#F1B7BD] p-2 rounded-full mr-3' /></span>
                             <h1 className='font-semibold'>Valentine Special Group Holdings Ltd,<br /> Commercial House, 21a Stone Street,<br /> Dudley, West Midlands, DY1 1NJ</h1>
                         </div>
 
                         <div className='mt-5 flex'>
-                            <span className=' '><MdOutlinePhoneInTalk className='text-4xl bg-cyan-400 p-2 rounded-full mr-3' /></span>
+                            <span className=' '><MdOutlinePhoneInTalk className='text-4xl bg-[#F1B7BD] p-2 rounded-full mr-3' /></span>
                             <h1 className='font-semibold'>0800 849 8585</h1>
                         </div>
                         <div className='mt-5 flex'>
-                            <span className=' '><MdOutlineMail className='text-4xl bg-cyan-400 p-2 rounded-full mr-3' /></span>
+                            <span className=' '><MdOutlineMail className='text-4xl bg-[#F1B7BD] p-2 rounded-full mr-3' /></span>
                             <h1 className='font-semibold'>hello@midlandnetworks.co.uk</h1>
                         </div>
                     </div>

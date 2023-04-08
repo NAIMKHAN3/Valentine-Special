@@ -8,7 +8,7 @@ const Navbar = () => {
     const toggleIsOpen = () => {
         setIsOpen(value => !value)
     }
-    const navItem = 'text-md md:ml-4 mb-1 hover:bg-neutral-100 px-5 py-1 rounden-md cursor-pointer font-semibold'
+    const navItem = 'text-md md:ml-4 hover:text-[#962927] hover:font-bold mb-1 hover:bg-neutral-100 px-5 py-1 rounden-md cursor-pointer font-semibold'
     const item = <ul className='flex md:items-center flex-col lg:flex-row md:justify-center'>
         <Link to='/'>  <li className={`${navItem}`}>Home</li></Link>
         <Link to='/product'>  <li className={`${navItem}`}>Product</li></Link>
@@ -16,8 +16,8 @@ const Navbar = () => {
         <Link to='/about'>  <li className={`${navItem}`}>About</li></Link>
         <Link to='/contact'>  <li className={`${navItem}`}>Contact</li></Link>
 
-        <button className='font-semibold bg-[#2596be] rounded-full md:ml-4 mb-1 px-3 md:px-6 text-white py-1 md:py-2'>LogIn</button>
-        <button className='font-semibold md:ml-4 mb-1 hover:text-indigo-500'>SignUp</button>
+        <button className='font-semibold hover:font-bold hover:bg-[#642524] bg-[#962927] rounded-full md:ml-4 mb-1 px-3 md:px-6 text-white py-1 md:py-2'>LogIn</button>
+        <button className='font-semibold md:ml-4 mb-1 hover:text-[#962927] hover:font-bold'>SignUp</button>
 
     </ul>
     return (
